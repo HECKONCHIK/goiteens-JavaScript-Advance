@@ -1,0 +1,33 @@
+{
+  "name": "goiteens-javascript-advance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HECKONCHIK/goiteens-JavaScript-Advance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HECKONCHIK/goiteens-JavaScript-Advance/issues"
+  },
+  "homepage": "https://github.com/HECKONCHIK/goiteens-JavaScript-Advance#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "debounce": "^1.2.1",
+    "lodash.debounce": "^4.0.8",
+    "lodash.throttle": "^4.1.1",
+    "throttle": "^1.0.3",
+    "throttle-debounce": "^5.0.0"
+  }
+}
